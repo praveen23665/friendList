@@ -1,0 +1,116 @@
+
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+.container{
+    height: 450px;
+
+    width: 35%;
+    border: solid 1px #EAEAEA;
+    background-color: white;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+   
+    margin: 2%; 
+    width: 50% ;
+    height: 30px; 
+    border :solid 1px #EAEAEA;
+    outline:solid 0.5px lightblue;
+    padding: 0 2%;
+   
+}
+/* .search:active,:focus,:enabled{
+    font-weight: 600;
+    border: none;
+    outline: none;
+} */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b8b3b3;
+    opacity: 1; /* Firefox */
+    font-size: 12px;
+  }
+
+ .button{
+    border: none;
+    height: 30px;
+    margin: 1%;
+    padding: 1%;
+    color: #fff;
+    background-color: teal;
+    cursor: pointer;
+ } 
+ .button:hover{
+    /* font-weight: 700; */
+    background-color: rgb(126, 149, 189);
+ }
+ .form{
+    width: 100%;
+ }
+
+ .listContainer{
+    width: 80%;
+    height: 80%;
+    border: solid 1px #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+ .header{
+    width: 96%;
+    height: 10%;
+    display: flex;
+    background-color: #b8b3b3;
+    font-weight: 700;
+    align-items: center;
+    padding: 0 2%;
+ }
+.searchContainer{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: left;
+    align-items: center;
+    padding: 0 2%;
+
+}
+.listSearch{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #EAEAEA;
+    padding: 0 5%;
+    font-size: 14px;
+}
+.friendList{
+    height: 70%;
+    width: 100%;
+    border-bottom: solid 1px #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+.friendRow{
+    height: 20%;
+    width: 90%;
+    border-bottom: solid 1px #EAEAEA;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    font-size: 10px;
+}
+

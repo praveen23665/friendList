@@ -1,0 +1,7 @@
+export const FETCH_FRIEND_LIST = "FETCH_FRIEND_LIST";
+
+export const ADD_FRIEND = "ADD_FRIEND";
+
+export const DELETE_FRIEND = "DELETE_FRIEND";
+
+export const FAVOURITE_FRIEND = "FAVOURITE_FRIEND";
